@@ -11,7 +11,5 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-document.write('<h3>' + greeting + '</h3>'); 
+document.write('<h3>' + greeting + '</h3>');
 
-
-<button onclick="window.location.href='b.php'">Click me</button>
