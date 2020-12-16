@@ -13,3 +13,5 @@ if (hourNow > 18) {
 }
 document.write('<h3>' + greeting + '</h3>');
 
+var $listHTML = $('ul').html();
+$('ul').append($listHTML);
