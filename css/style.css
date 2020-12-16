@@ -9,14 +9,14 @@
     }
 
 body{
-        background-color: #000; 
+        background-color: rgb(78, 0, 0); 
         width: 100vw;
         height: 100vh;
         font-family:'Roboto',sans-serif;
         }
 
 .wrapper{
-    background-color:#f00;
+    background-color:rgb(0, 0, 0);
 }
 .wrapperDivs {
     width: 100vw;

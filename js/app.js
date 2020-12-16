@@ -24,6 +24,25 @@ var color2= "linear-gradient(330deg, #5BC0BE 0%, #3A506B 100%)";
 var color3= "linear-gradient(35deg, #0B132B 0%, #5BC0BE 100%)";
 var color4= "linear-gradient(235deg, #5BC0BE 0%, #3A506B 100%)"; 
 
+var colorsArray = [color1,color2,color3,color4];
+//console.log(colorsArray);
+var wrapper_Divs = document.getElementsByClassName('wrapperDivs');
+//console.log(wrapper_Divs);
+var divOne = wrapper_Divs.item(0)
+var divTwo = wrapper_Divs.item(1)
+var divThree = wrapper_Divs.item(2)
+var divFour = wrapper_Divs.item(3)
+
+var allDivs = [divOne,divTwo,divThree,divFour];
+//console.log(allDivs);
+for (var i=0; i<4; i++){
+    var myDiv = allDivs[i]
+   //console.log(myDiv);
+   myDiv.style.backgroundImage = colorsArray[i];
+var update= document.createElement('section');
+myDiv.appendChild(update)
+update.setAttribute('id','ID'+[i]);
+}
 
 
 
