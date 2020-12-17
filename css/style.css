@@ -9,45 +9,13 @@
     }
 
 body{
-        background-color: #000; 
-        width: 100vw;
-        height: 100vh;
-        font-family:'Roboto',sans-serif;
         background-image: url("whiteheadphones.jpeg");
         background-color: #000000;
         }
-
-.wrapper{
-    background-color:#f00;
-}
-.wrapperDivs {
-    width: 100vw;
-    height: 100vh;
-    overflow: scroll;
-}
 
 p{
     color:rgb(236, 90, 90);
     font-weight:lighter;
     line-height:1.5em;
     margin-top:1em;
-}
-
-td,
-span{
-    color:rgb(128, 15, 15);
-    font-size:1.5em;
-}
-span{
-    padding-bottom: 0.25em;
-    display:inline-flex;
-}
-img{
-    margin: 0.5em;
-    padding: 0.5em;
-    border: 0.5px solidrgb(46, 8, 8);
-    border-radius: 0.5em;
-}
-.wrapperDivs section{
-    padding:2em;
 }
