@@ -13,6 +13,8 @@ body{
         width: 100vw;
         height: 100vh;
         font-family:'Roboto',sans-serif;
+        background-image: url("whiteheadphones.jpeg");
+        background-color: #000000;
         }
 
 .wrapper{
@@ -25,7 +27,7 @@ body{
 }
 
 p{
-    color:#fff;
+    color:rgb(236, 90, 90);
     font-weight:lighter;
     line-height:1.5em;
     margin-top:1em;
@@ -33,7 +35,7 @@ p{
 
 td,
 span{
-    color:#fff;
+    color:rgb(128, 15, 15);
     font-size:1.5em;
 }
 span{
@@ -43,7 +45,7 @@ span{
 img{
     margin: 0.5em;
     padding: 0.5em;
-    border: 0.5px solid#fff;
+    border: 0.5px solidrgb(46, 8, 8);
     border-radius: 0.5em;
 }
 .wrapperDivs section{
